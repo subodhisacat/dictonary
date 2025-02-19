@@ -14,7 +14,7 @@ btn.addEventListener("click", () => {
             <h3>${inpWord.toUpperCase()}</h3>
         </div>
         <p class="word-meaning">
-           Prakriti BB 🥰
+           Xoxo BB 🥰
         </p>`;
         sound.setAttribute("src", "");
     } else {
