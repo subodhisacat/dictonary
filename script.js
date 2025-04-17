@@ -3,7 +3,7 @@ const result = document.getElementById("result");
 const sound = document.getElementById("sound");
 const btn = document.getElementById("search-btn");
 
-const specialWords = ["babe", "bb", "bhunku", "lovely", "cute", "beautiful","lovie", "maya" ];
+
 
 btn.addEventListener("click", () => {
     let inpWord = document.getElementById("inp-word").value.toLowerCase();
@@ -14,7 +14,7 @@ btn.addEventListener("click", () => {
             <h3>${inpWord.toUpperCase()}</h3>
         </div>
         <p class="word-meaning">
-           Xoxo BB 🥰
+          
         </p>`;
         sound.setAttribute("src", "");
     } else {
